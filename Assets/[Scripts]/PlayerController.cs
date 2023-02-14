@@ -38,5 +38,13 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector2(boundary.left, -4.0f);
         } 
     }
+
+    public void onTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.CompareTag("Cloud")){
+            print("Collided with Cloud");
+        } else if (other.gameObject.CompareTag("Island")){
+            print("Collided with Island"); 
+        }
+    }
     
 }
