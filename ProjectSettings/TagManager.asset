@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ocean
+    uniqueID: 1995618285
+    locked: 0
+  - name: Island
+    uniqueID: 3254819087
+    locked: 0
+  - name: Player
+    uniqueID: 2937684177
+    locked: 0
+  - name: Cloud
+    uniqueID: 1483163235
+    locked: 0
+  - name: UI
+    uniqueID: 3540657551
+    locked: 0
