@@ -42,8 +42,10 @@ public class PlayerController : MonoBehaviour
     public void onTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("Cloud")){
             print("Collided with Cloud");
+            other.gameObject.GetComponent<AudioSource>().Play();
         } else if (other.gameObject.CompareTag("Island")){
             print("Collided with Island"); 
+            other.gameObject.GetComponent<AudioSource>().Play();
         }
     }
     
